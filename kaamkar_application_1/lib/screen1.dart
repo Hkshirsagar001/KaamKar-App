@@ -7,10 +7,6 @@ figma  :   https://www.figma.com/design/rziJdbQVG6OEmON9guoMuf/KaamKar-UI?node-i
 
 ****************************************************************************** */
 
-
-
-
-
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
@@ -24,11 +20,11 @@ class Screen1 extends StatefulWidget {
 class _Screen1State extends State<Screen1> {
   @override
   Widget build(BuildContext context) {
-    return  Center( 
-      child: Container( 
-          width: 300,
-          height: 300,
-          color: Colors.amber,
+    return Center(
+      child: Container(
+        width: 300,
+        height: 300,
+        color: Colors.amber,
       ),
     );
   }

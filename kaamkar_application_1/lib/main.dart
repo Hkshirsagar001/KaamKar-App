@@ -5,7 +5,7 @@ import 'screen3.dart';
 import 'screen4.dart';
 import 'screen5.dart';
 import 'screen6.dart';
-import 'screen7.dart';
+import './Screen7.dart';
 
 void main() {
   runApp(const MainApp());
@@ -18,7 +18,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: Scaffold(
-        body: Screen1(),       // create object of your class 
+        body: Screen1(), // create object of your class
       ),
     );
   }

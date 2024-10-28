@@ -7,10 +7,6 @@ figma  :   https://www.figma.com/design/rziJdbQVG6OEmON9guoMuf/KaamKar-UI?node-i
 
 ****************************************************************************** */
 
-
-
-
-
 import 'package:flutter/material.dart';
 
 class Screen6 extends StatefulWidget {
