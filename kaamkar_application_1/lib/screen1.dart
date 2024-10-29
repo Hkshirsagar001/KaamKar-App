@@ -8,7 +8,6 @@ figma  :   https://www.figma.com/design/rziJdbQVG6OEmON9guoMuf/KaamKar-UI?node-i
 ****************************************************************************** */
 
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class Screen1 extends StatefulWidget {
   const Screen1({super.key});
