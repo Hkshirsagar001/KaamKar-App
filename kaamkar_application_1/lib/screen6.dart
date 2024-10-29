@@ -7,10 +7,6 @@ figma  :   https://www.figma.com/design/rziJdbQVG6OEmON9guoMuf/KaamKar-UI?node-i
 
 ****************************************************************************** */
 
-
-
-
-
 import 'package:flutter/material.dart';
 
 // ignore: camel_case_types
@@ -47,6 +43,7 @@ class _Screen6State extends State<Screen6> {
   }
   @override
   Widget build(BuildContext context) {
+<<<<<<< HEAD
     return Center(
       child:Column(
         children: [
@@ -131,3 +128,8 @@ class _Screen6State extends State<Screen6> {
 }
 
 //color:Color.fromARGB(1,121,116,126),
+=======
+    return const Placeholder();
+  }
+}
+>>>>>>> 7ddaaccc43530411b5007de04929d61d9d63f77f
