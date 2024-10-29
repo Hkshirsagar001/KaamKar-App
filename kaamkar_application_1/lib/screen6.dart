@@ -49,8 +49,9 @@ class _Screen6State extends State<Screen6> {
   }
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child:Column(
+    return Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: Column(
         children: [
           SizedBox(  
             width: 375,
@@ -69,7 +70,7 @@ class _Screen6State extends State<Screen6> {
             ),
           ),
           const SizedBox(height: 20),
-
+      
               // Information Text
           
           const Text(
@@ -92,5 +93,5 @@ class _Screen6State extends State<Screen6> {
         ],
       ),
     );
-  } 
+  }
 }
