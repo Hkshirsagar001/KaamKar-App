@@ -1,0 +1,30 @@
+name: myproject_application_1
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  carousel_slider: ^5.0.0
+  expandable: ^5.0.1
+  flutter:
+    sdk: flutter
+  flutter_signin_button: ^2.0.0
+  flutter_svg: ^2.0.10+1
+  google_fonts: ^6.2.1
+  readmore: ^3.0.0
+  rich_readmore: ^1.1.1
+  smooth_page_indicator: ^1.2.0+3
+  ticket_clippers: ^0.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
