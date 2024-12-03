@@ -13,7 +13,7 @@ dynamic dataEntryID;
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
   try {
-    await Firebase.initializeApp(options: const FirebaseOptions(apiKey: "AIzaSyBquAoSvtycqrV5TKgAPGHMEoapgXr8vEs", appId: "353378635466", messagingSenderId: "1:353378635466:android:30f559a2ffd1d56218ae33", projectId: "kaamkar-44d36"));
+    await Firebase.initializeApp(options: const FirebaseOptions(apiKey: "", appId: "", messagingSenderId: ":::", projectId: "-"));
     log("Firebase successfully!");
      globalDatabase = await openDatabase( 
    join(await getDatabasesPath(),"firebaseDB.db"),
